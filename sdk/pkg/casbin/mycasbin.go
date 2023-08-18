@@ -4,7 +4,6 @@ import (
 	"sync"
 
 	"github.com/casbin/casbin/v2"
-	"github.com/casbin/casbin/v2/log"
 	"github.com/casbin/casbin/v2/model"
 	"github.com/fits-devops/fits-monitor-sdk/logger"
 	"github.com/fits-devops/fits-monitor-sdk/sdk"
@@ -79,7 +78,7 @@ func Setup(db *gorm.DB, _ string) *casbin.SyncedEnforcer {
 			}
 		}
 
-		log.SetLogger(&Logger{})
+		// log.SetLogger(&Logger{})
 		enforcer.EnableLog(true)
 	})
 
