@@ -1,6 +1,6 @@
 module github.com/fits-devops/fits-monitor-sdk/v2
 
-go 1.21.0
+go 1.19
 
 require (
 	github.com/gogf/gf/contrib/nosql/redis/v2 v2.5.2
