@@ -1,4 +1,4 @@
-module github.com/fits-devops/fits-monitor-sdk
+module github.com/fits-devops/fits-monitor-sdk/v2
 
 go 1.21.0
 
