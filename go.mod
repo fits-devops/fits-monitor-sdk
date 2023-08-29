@@ -5,6 +5,7 @@ go 1.19
 require (
 	github.com/gogf/gf/contrib/nosql/redis/v2 v2.5.2
 	github.com/gogf/gf/v2 v2.5.2
+	github.com/golang-jwt/jwt/v4 v4.5.0
 )
 
 require (
